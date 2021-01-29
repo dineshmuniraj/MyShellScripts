@@ -1,0 +1,11 @@
+Global Regular Expression Print
+
+grep "dinesh" filename.txt
+//Searches for "Dinesh" in the file ansible.cfg
+
+grep -w "Dinesh" filename.txt
+//returns only if Dinesh is separate word
+
+grep -win "Dinesh" filename.txt
+//i means case insensitve and n means showing the  line numbers where the words were found
+
