@@ -2,3 +2,35 @@ last reboot
 whoami
 w
 top
+
+//Display Calendar
+cal
+
+//Display Date and time
+date
+
+//Print Working Directory
+pwd
+Output - home/osboxes
+
+//Change Directory
+cd /home or cd ~
+
+//-v in mkdir displays that the directory is created.
+mkdir -v src
+//-p in mkdir creates parent directory also does not complain when you make a directory that already exists
+
+//less command - to display the file content
+less -N file1.txt shows a file with numbers at the beginning.
+
+less * shows multiple files, and using Shift: + N for next file and Shift: + P for previous file
+
+//
+
+
+
+
+
+
+
+
