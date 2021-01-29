@@ -1,0 +1,20 @@
+u - user
+g - group
+o- others
+
+
+4 stands for read
+2 stands for write
+1 stands for execute
+0 no permissons
+
+7 stands for all permissions
+
+the command to change permissions to the outside world
+chmod o+w Filename
+example:
+chmod 754 Filename 
+means 
+users will have read write and execute
+groups will have read and execute permissions
+others have only have write access.
