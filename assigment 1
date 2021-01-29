@@ -1,0 +1,29 @@
+A-Z Commands
+apt-get	update --- Command-line utility to latest update packages based on APT system.
+bc  -- Access the GNU bc calculator utility.
+cal - Access Calendar
+date - Access Date
+Echo - Print something
+file - open a file
+grep	- Searches input files for a given pattern and displays the relevant lines.
+help - displays help for builtin command
+ifconfig	- Used to configure network interfaces.
+jobs	 Show the list of active jobs and their status.
+Kill -  Send a kill (termination) signal to one more processes.
+less - View a file
+mkdir - Create new directory
+named	- Internet domain name server.
+op	- Operator access, allows system administrators to grant users access to certain root operations that require superuser privileges.
+pwd	 - Show current directory.
+quota	- Shows disk usage, and space limits for a user or group. Without arguments, only shows user quotas.
+rm	 - Removes specified files and directories (not by default).
+ssh	 - An SSH client for logging in to a remote machine. It provides encrypted communication between the hosts.
+tail	- Show the last 10 lines of each specified file().
+users	- Show the list of active users on the machine.
+vi	- A text editor utility.
+whoami	- Displays the username tied to the current effective user ID.
+xargs -  Runs a command using initial arguments and then reads remaining arguments from standard input.
+ypinit	- Sets up NIS maps on an NIS server.
+zip	 A file compression and packaging utility.
+
+
