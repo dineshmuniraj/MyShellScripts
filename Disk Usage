@@ -1,0 +1,4 @@
+df –h
+//The df command stands for disk free, and it shows you the amount of space taken up by different drives. By default, df displays values in 1-kilobyte blocks.
+h represents human readable format
+/dev/sda2 – This is your physical hard drive. It may be listed as /sda1, /sda0, or you may even have more than one. /dev stands for device.
