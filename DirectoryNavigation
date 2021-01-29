@@ -1,0 +1,8 @@
+cd . 
+//means current Directory
+cd ..
+// Parent Directory
+cd "absolute path"
+//to navigate to a specific path
+cd ../..
+//Parent of the Parent Directory
