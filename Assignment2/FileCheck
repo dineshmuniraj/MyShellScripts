@@ -1,0 +1,35 @@
+#!/bin/bash
+ 
+//Check if the file is empty or not
+if test -s $1
+then
+        echo "$1 not empty file"
+fi
+
+//Check if the file is directory or not
+if test -f $1
+then
+        echo "$1 normal file. Not a directory"
+fi
+
+//Check if the file exists
+if test -e $1
+then 
+    echo "$1 exists"
+fi
+//Check if it is a directory
+if test -d $1
+then
+        echo "$1 is directory and not a file"
+fi
+
+//Check if the file is read only
+if test -r $1
+then
+        echo "$1 is read-only file"
+fi
+//check if the file is executable
+if test -x $1
+then
+        echo "$1 is executable"
+fi
