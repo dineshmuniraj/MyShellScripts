@@ -1,0 +1,6 @@
+
+// Displays all the Processes status in the complete format and the result of ps -ef is 
+used by grep to search for python processes 
+and it is further used to search for processes with the name grep in it 
+and kill the process
+ps -ef | grep python | grep -v grep | kill $(cut -d" " -f4) 
