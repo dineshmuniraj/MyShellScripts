@@ -63,6 +63,9 @@ removed directory 'src'
 //
 cd ../.. takes you to the parent of parent directory.
 
+//Create a symbolic link to Java
+ln     -s    /usr/java/jdk1.8.0_45/    ~/java 
+ 
 
 
 
